@@ -5,7 +5,8 @@
   "scripts": {
     "server": "json-server --watch server.json --port 3333",
     "dev": "webpack serve",
-    "build": "webpack"
+    "build": "webpack",
+    "dev-vercel": "npm run server & npm run dev"
   },
   "dependencies": {
     "dayjs": "^1.11.10",
