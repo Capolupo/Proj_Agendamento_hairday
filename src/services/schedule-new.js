@@ -9,7 +9,7 @@ export async function scheduleNew({id, name, when}){
       },
       body:JSON.stringify({id, name, when})
     })
-    alert("Agendamento realizado com sucesso!")
+    alert("Agendamento realizado com sucesso,UHU!")
   } catch (error) {
     console.log(error)
     alert("Não foi possivel realizar o ahendamento")    
